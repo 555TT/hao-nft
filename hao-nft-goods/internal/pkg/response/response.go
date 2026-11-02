@@ -8,6 +8,7 @@ import (
 
 const (
 	CodeSuccess      = 0
+	CodeError        = -1
 	CodeInvalidParam = 4000
 )
 

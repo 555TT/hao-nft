@@ -16,7 +16,7 @@ func CollectionList(c *gin.Context) {
 	}
 	serviceResp, err := service.GetCollectionList(req)
 	if err != nil {
-		response.Error(c, response.CodeInvalidParam, err.Error())
+		response.Error(c, response.CodeError, err.Error())
 		return
 	}
 	response.Success(c, serviceResp)
