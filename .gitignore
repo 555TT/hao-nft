@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Go build artifacts
+/bin/
+/build/
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# IDE and editor files
+.idea/
+.vscode/
+*.iml
+
+# OS-generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
